@@ -7,32 +7,32 @@ class StoryBrain {
   List<Story> _storyData = [
     Story(
         storyTitle:
-            'Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: "Need a ride, boy?".',
-        choice1: 'I\'ll hop in. Thanks for the help!',
-        choice2: 'Better ask him if he\'s a murderer first.'),
+            'Le pneu de votre voiture vient de crever sur une route sinueuse au milieu de nulle part sans réception de téléphone portable. Vous décidez de faire de l\'auto-stop. Une camionnette rouillée s\'arrête à côté de vous. Un homme au chapeau à larges bords et aux yeux sans âme vous ouvre la portière côté passager et vous demande: "Besoin d\'aide ?".',
+        choice1: 'Je monte et le remercie pour l\'aide!',
+        choice2: 'Mieux vaut d\'abord lui demander s\'il est un meurtrier.'),
     Story(
-        storyTitle: 'He nods slowly, unphased by the question.',
-        choice1: 'At least he\'s honest. I\'ll climb in.',
-        choice2: 'Wait, I know how to change a tire.'),
-    Story(
-        storyTitle:
-            'As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.',
-        choice1: 'I love Elton John! Hand him the cassette tape.',
-        choice2: 'It\'s him or me! You take the knife and stab him.'),
+        storyTitle: 'Il hoche lentement la tête, sans répondre à la question.',
+        choice1: 'Au moins, il est honnête. Je monte.',
+        choice2: 'Attendez, je sais comment changer un pneu.'),
     Story(
         storyTitle:
-            'What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?',
-        choice1: 'Restart',
+            'Alors que vous commencez à conduire, l\'étranger commence à parler de sa relation avec sa mère. Il devient de plus en plus colérique de minute en minute. Il vous demande d\'ouvrir la boîte à gants. À l\'intérieur, vous trouvez un couteau sanglant, deux doigts coupés et une cassette d\'Elton John. Il tend le bras vers la boîte à gants.',
+        choice1: 'J\'adore Elton John! Donnez-lui la cassette.',
+        choice2: 'C\'est lui ou moi! Vous prenez le couteau et le poignardez.'),
+    Story(
+        storyTitle:
+            'Quoi ? Vous avez un instinct de flic ! Saviez-vous que les accidents de la circulation sont la deuxième cause de décès accidentel pour la plupart des adultes?',
+        choice1: 'Redémarrer',
         choice2: ''),
     Story(
         storyTitle:
-            'As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.',
-        choice1: 'Restart',
+            'Alors que vous vous frayez un chemin à travers le garde-corps et que vous vous dirigez vers les rochers déchiquetés en dessous, vous réfléchissez à la sagesse douteuse de poignarder quelqu\'un pendant qu\'il conduit une voiture dans laquelle vous vous trouvez.',
+        choice1: 'Redémarrer',
         choice2: ''),
     Story(
         storyTitle:
-            'You bond with the murderer while crooning verses of "Can you feel the love tonight". He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: "Try the pier".',
-        choice1: 'Restart',
+            'Vous vous liez au meurtrier en chantant les paroles de "L\'amour sous les étoiles". Il vous dépose à la prochaine ville. Avant de partir, il vous demande si vous connaissez de bons endroits pour jeter vos corps. Vous répondez: "Essayez la jetée".',
+        choice1: 'Redémarrer',
         choice2: '')
   ];
 
