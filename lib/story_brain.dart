@@ -81,9 +81,7 @@ class StoryBrain {
       } else if (choiceNumber == 2) {
         storyNumber = 4;
       }
-    }
-
-    if (storyNumber == 3 || storyNumber == 4 || storyNumber == 5) {
+    } else if (storyNumber == 3 || storyNumber == 4 || storyNumber == 5) {
       restart();
     }
   }
